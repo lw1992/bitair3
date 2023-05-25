@@ -1,14 +1,14 @@
 import { Layout, Space, Divider, List, Row, Col, Button, Image } from 'antd';
 const { Header, Footer, Sider, Content } = Layout;
 const leftTitle = [
-  "CEX中心交易所",
-  "Faucet水龙头",
-  "Bridge跨链桥",
-  "Layer1主网",
-  "Layer2二层",
-  "Tools工具",
-  "News新闻",
-  "GPT智能助手",
+  "CEX",
+  "Faucet",
+  "Bridge",
+  "Layer1",
+  "Layer2",
+  "Tools",
+  "News",
+  "AI/GPT",
 ];
 
 const webButtonHandle=(props)=> {
@@ -535,10 +535,10 @@ const MyLayout = () => (
               <TitleButton name='Etherscan' link='https://etherscan.io/'></TitleButton>
             </Col>
             <Col span={4}>
-              <TitleButton name='Galxe' link='https://galxe.com/'></TitleButton>
+              <TitleButton name='Lens' link='https://lens.xyz'></TitleButton>
             </Col>
             <Col span={4}>
-              <TitleButton name='Lens' link='https://lens.xyz'></TitleButton>
+              <TitleButton name='Galxe' link='https://galxe.com/'></TitleButton>
             </Col>
             <Col span={4}>
               <TitleButton name='Zerion' link='https://zerion.io/'></TitleButton>
@@ -601,6 +601,9 @@ const MyLayout = () => (
               <TitleButton name='EtherMail' link='https://ethermail.io/'></TitleButton>
           </Col>
           <Col span={4}>
+            <TitleButton name='ENS' link='https://ens.domains/'></TitleButton>
+          </Col>
+          <Col span={4}>
             <TitleButton name='Unstoppable' link='https://unstoppabledomains.com/'></TitleButton>
           </Col>
           <Col span={4}>
@@ -619,7 +622,7 @@ const MyLayout = () => (
             <TitleButton name='Buildspace' link='https://buildspace.so/'></TitleButton>
           </Col> 
           <Col span={4}>
-            <TitleButton name='Buildspace' link='https://www.wtf.academy'></TitleButton>
+            <TitleButton name='WTF.academy' link='https://www.wtf.academy'></TitleButton>
           </Col> 
           <Col span={4}>
             <TitleButton name='Guild' link='https://guild.xyz/'></TitleButton>
@@ -644,9 +647,6 @@ const MyLayout = () => (
             </Col>
             <Col span={4}>
               <TitleButton name='Tally' link='https://www.tally.xyz/'></TitleButton>
-            </Col>
-            <Col span={4}>
-              <TitleButton name='Depay' link='https://depay.com/'></TitleButton>
             </Col>
             <Col span={4}>
               <TitleButton name='MASK' link='https://mask.io/'></TitleButton>
@@ -714,7 +714,7 @@ const MyLayout = () => (
           </Row>
           
         </Content>
-        <Footer style={footerStyle}>Footer</Footer>
+        <Footer style={footerStyle}>Built with ❤️ by meta66.eth </Footer>
       </Layout>
     </Layout> 
   </Space>
