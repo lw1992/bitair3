@@ -464,6 +464,9 @@ const MyLayout = () => (
               <TitleButton name='SyncSwap' link='https://syncswap.xyz/'></TitleButton>
             </Col>
             <Col span={4}>
+              <TitleButton name='Satori' link='https://satori.finance/'></TitleButton>
+            </Col>
+            <Col span={4}>
               <TitleButton name='Mintsquare' link='https://mintsquare.io/'></TitleButton>
             </Col>
             <Col span={4}>
@@ -479,7 +482,7 @@ const MyLayout = () => (
               <TitleButton name='Myswap' link='https://www.myswap.xyz/'></TitleButton>
             </Col>
             <Col span={4}>     
-              <TitleButton name='Nexon' link='https://www.nexon.finance/'></TitleButton>
+              <TitleButton name='Eraland' link='https://www.eralend.com/'></TitleButton>
             </Col>
             <Col span={4}>
               <TitleButton name='Thales' link='https://thalesmarket.io/'></TitleButton>
@@ -488,11 +491,12 @@ const MyLayout = () => (
               <TitleButton name='Nostra' link='https://nostra.finance/'></TitleButton>
             </Col>
             <Col span={4}>
-              <TitleButton name='StarknetID' link='https://www.starknet.id/'></TitleButton>
+              <TitleButton name='Zklend' link='https://app.zklend.com/'></TitleButton>
             </Col>
             <Col span={4}>
-              <TitleButton name='ZNS' link='https://zns.is/'></TitleButton>
+              <TitleButton name='StarknetID' link='https://www.starknet.id/'></TitleButton>
             </Col>
+           
             <Col span={4}>
               <TitleButton name='Zkex' link='https://zkex.com/'></TitleButton>
             </Col>
@@ -571,6 +575,13 @@ const MyLayout = () => (
               <TitleButton name='Nansen' link='https://www.nansen.ai/'></TitleButton>
             </Col>
             <Col span={4}>
+              <TitleButton name='Glassnode' link='https://glassnode.com/'></TitleButton>
+            </Col>
+            <Col span={4}>
+              <TitleButton name='Tradingview' link='https://cn.tradingview.com/'></TitleButton>
+            </Col>
+            
+            <Col span={4}>
               <TitleButton name='Rabbithole' link='https://rabbithole.gg'></TitleButton>
             </Col>
             <Col span={4}>
@@ -613,6 +624,9 @@ const MyLayout = () => (
             <TitleButton name='Space.id' link='https://space.id/'></TitleButton>
           </Col>
           <Col span={4}>
+              <TitleButton name='ZNS' link='https://zns.is/'></TitleButton>
+            </Col>
+          <Col span={4}>
             <TitleButton name='Degenscore' link='https://degenscore.com/cafe'></TitleButton>
           </Col>
           <Col span={4}>
@@ -630,6 +644,10 @@ const MyLayout = () => (
           <Col span={4}>
             <TitleButton name='Layer3' link='https://layer3.xyz/'></TitleButton>
           </Col>
+           <Col span={4}>
+            <TitleButton name='Tabi' link='https://tabi.lol/'></TitleButton>
+          </Col>
+          
           <Col span={4}>
             <TitleButton name='Cyberconnect' link='https://cyberconnect.me'></TitleButton>
           </Col>
@@ -669,7 +687,32 @@ const MyLayout = () => (
             <Col span={4}>
               <TitleButton name='GeckoTerminal' link='https://geckoterminal.com/'></TitleButton>
             </Col> 
+            <Col span={4}>
+              <TitleButton name='Crunchbase' link='https://earni.fi/'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Rootdata' link='https://www.rootdata.com/'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Crunchbase' link='https://www.crunchbase.com/home'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Dexnav' link='https://dexnav.com/'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Cointool' link=' https://cointool.app/dashboard'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Tokentool' link=' https://tokentool.app/'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Bitboxtools' link='https://bitboxtools.github.io/'></TitleButton>
+            </Col> 
+            <Col span={4}>
+              <TitleButton name='Byfishh' link='https://byfishh.github.io/'></TitleButton>
+            </Col> 
             
+        
           </Row>
           <Divider orientation="left">News新闻</Divider>
           <Row justify="space-evenly">
